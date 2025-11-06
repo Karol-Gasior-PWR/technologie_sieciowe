@@ -1,0 +1,54 @@
+
+Przedsiêbiorstwo/instytucja:;;Agencja_turystyczna
+
+;Liczba u¿ytkowników (komputerów)
+;Budynek 1;;;Budynek 2
+Grupa robocza;Piêtro 1;Piêtro 2;Piêtro 3;Piêtro 1;Piêtro 2;
+Sprzedawcy;7;19;49;20;37;
+Konsultanci;52;50;32;28;33;
+Ksiêgowoœæ;40;8;32;42;39;
+Telecentrum;12;44;11;17;42;
+;Liczba drukarek
+;2;3;2;1;1;
+;Liczba punktów dostêpowych WiFi
+;3;0;0;0;2;
+;Liczba urz¹dzeñ bezprzewodowych
+;10;0;0;0;9;
+
+Odleg³oœc pomiêdzy budynkami:;;;195m (w³aœciwie nie jest to potrzebne w projekcie)
+£¹cze pomiêdzy budynkami:;;;Optyczne wielomodowe
+
+Punkty dystrybucyjne: 
+Oznaczenie;Lokalizacja;Pod³¹czone punkty abonenckie
+MDF;Bud. 1, Piêtro 1;Bud. 1, Piêtro 1,;
+IDF1;Bud. 1, Piêtro 3;Bud. 1, Piêtro 2,3,;
+IDF2;Bud. 2, Piêtro 2;Bud. 2;
+
+
+Wymagania dot. przep³ywów pomiêdzy pracownikami a serwerami lokalnymi (transfer przypadaj¹cy na jednego u¿ytkownika) - dotyczy równie¿ u¿ytkowników WiFi
+
+;Transfer do serwerów lokalnych i drukarek (down \ up) [kb/s]
+Grupa rob. / Serwer;Serwer1;Serwer2;Drukarka
+Sprzedawcy;200\500;150\300;10\190;
+Konsultanci;350\600;350\450;10\200;
+Ksiêgowoœæ;450\150;50\100;10\160;
+Telecentrum;450\50;650\150;10\160;
+WiFi;100\150;0\0;10\160;
+
+Prognozowany ruch do Internetu z posiadanych przez firmê serwerów internetowych
+
+;Transfer do\z Internetu na jedn¹ sesjê (internautê) [kb/s] 
+Serwery internetowe;Do Internetu;Z Internetu;Liczba jednoczesnych sesji
+Serwer WWW;50;25;35
+Serwer FTP;320;60;11
+
+
+Wymagania dot. przep³ywów generowanych przez aplikacje u¿ytkownika z\do internetu  (transfer przypadaj¹cy na jednego u¿ytkownika)  - dotyczy równie¿ u¿ytkowników WiFi
+
+;Transfer z/do Internetu (down \ up) [kb/s]
+Grupa rob./Aplikacja;Przegl¹darka;Wideokonferencja;VoIP;Klient_FTP;Komunikator;Praca_w_chmurze;Poczta;
+Sprzedawcy;79\10;0\0;0\0;70\10;0\0;42\14;0\0;
+Konsultanci;49\10;0\0;20\20;76\17;15\15;59\34;19\25;
+Ksiêgowoœæ;50\10;40\40;20\20;0\0;15\15;33\38;0\0;
+Telecentrum;72\10;0\0;20\20;0\0;0\0;23\25;0\0;
+WiFi;0\0;40\40;20\20;0\0;15\15;0\0;15\21;
